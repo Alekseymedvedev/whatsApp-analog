@@ -6,7 +6,7 @@ import {apiTokenInstance, idInstance} from "./token";
 export const chatsApi = createApi({
     reducerPath: 'chatsApi',
     baseQuery: fetchBaseQuery({
-        baseUrl: `${process.env.REACT_APP_URL}`,
+        baseUrl: `https://api.green-api.com`,
 
     }),
     tagTypes: ['chat'],

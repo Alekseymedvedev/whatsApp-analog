@@ -6,7 +6,7 @@ import {apiTokenInstance, idInstance} from "./token";
 export const contactsApi = createApi({
     reducerPath: 'mcontactsApi',
     baseQuery: fetchBaseQuery({
-        baseUrl: `${process.env.REACT_APP_URL}`,
+        baseUrl: `https://api.green-api.com`,
 
     }),
     tagTypes: ['s'],

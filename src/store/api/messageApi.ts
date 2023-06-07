@@ -7,7 +7,7 @@ import {apiTokenInstance, idInstance} from "./token";
 export const messageApi = createApi({
     reducerPath: 'messagerApi',
     baseQuery: fetchBaseQuery({
-         baseUrl: `${process.env.REACT_APP_URL}`,
+         baseUrl: `https://api.green-api.com`,
 
     }),
 
