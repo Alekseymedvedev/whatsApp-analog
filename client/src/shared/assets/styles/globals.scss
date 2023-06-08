@@ -1,0 +1,50 @@
+@import 'variables';
+
+body {
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
+}
+
+.container {
+  width: calc(100% - 38px);
+  height: 100vh;
+  margin: 0 auto;
+  padding-top: 24px;
+  display: flex;
+
+  &:before {
+    content: '';
+    width: 100%;
+    height: 130px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: var(--color-accent);
+    z-index: -1;
+  }
+
+  @media (max-width: 560px) {
+    width: 100%;
+  }
+}
+
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--color-secondary);
+  border-radius: 20px;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-secondary) transparent;
+}
