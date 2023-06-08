@@ -2,64 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24af6d2a-f501-4f87-a0c2-d435f6ea8d57" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/client/src/store/api/testApi.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/App.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/declaration.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/components/chat/chat.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/components/chat/chat.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/components/headerSidebar/headerSidebar.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/components/headerSidebar/headerSidebar.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/components/search/search.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/components/search/search.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/useReduser.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/UI/button/button.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/UI/button/button.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/UI/input/input.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/UI/input/input.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/assets/images/icon/avatarIcon.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/assets/images/icon/searchIcon.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/assets/images/icon/sendIcon.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/assets/images/img-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/assets/styles/globals.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/assets/styles/reset.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/assets/styles/variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/components/avatar/avatar.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/components/avatar/avatar.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/components/dropdown/dropdown.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/components/dropdown/dropdown.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/hooks/useInput.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/api/chatsApi.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/api/contactsApi.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/api/messageApi.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/api/token.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/slice/authSlice.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/store.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/types.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widgets/components/auth/auth.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widgets/components/auth/auth.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widgets/components/chatMessages/chatMessages.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widgets/components/chatMessages/chatMessages.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widgets/components/chatsList/chatsList.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widgets/components/chatsList/chatsList.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widgets/components/sidebar/sidebar.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widgets/components/sidebar/sidebar.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +71,7 @@
       <workItem from="1686155585702" duration="17096000" />
       <workItem from="1686212094836" duration="19824000" />
       <workItem from="1686238151411" duration="917000" />
-      <workItem from="1686239927528" duration="1231000" />
+      <workItem from="1686239927528" duration="1965000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1686152703743</created>
@@ -171,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686160852187</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="commit">
+      <created>1686241430722</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1686241430723</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,18 +1,25 @@
-import express from 'express'
+import whatsAppClient from "@green-api/whatsapp-api-client"
+import express from "express"
+import bodyParser from "body-parser"
 
 
-const app = express()
-
-app.get('/api', (req, res) => {
-    res.status(200).json('sever work')
-})
-
-async function startApp() {
+// Receive webhook
+(async () => {
     try {
-        app.listen(80, () => console.log('SERVER STARTED ON PORT ' + 80))
-    } catch (e) {
-        console.log(e)
-    }
-}
 
-startApp()
+        const app = express();
+        const webHookAPI = whatsAppClient.webhookAPI(app, '/')
+        app.use(bodyParser.json());
+
+        webHookAPI.onIncomingMessageText((data, idInstance, idMessage, sender, typeMessage, textMessage) => {
+            console.log(`Incoming Notification data ${JSON.stringify(data)}`)
+        });
+
+        app.listen(80, async () => {
+            console.log(`Started. App listening on port 80!`)
+        });
+    } catch (error) {
+        console.error(error);
+        process.exit(1);
+    }
+})();
