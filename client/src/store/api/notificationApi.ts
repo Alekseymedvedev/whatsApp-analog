@@ -14,6 +14,7 @@ export const notificationApi = createApi({
         getNotification: build.query({
             query: () => ({
                 url: `/api`,
+                responseHandler: (response: { text: () => any }) => response.text()
             }),
             providesTags: ['chat'],
         }),
