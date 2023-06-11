@@ -3,13 +3,13 @@ import {messageApi} from "./api/messageApi";
 import authReducer from './slice/authSlice'
 import {chatsApi} from "./api/chatsApi";
 import {contactsApi} from "./api/contactsApi";
-import {testApi} from "./api/testApi";
+import {notificationApi} from "./api/notificationApi";
 
 const rootReducer = combineReducers({
     [chatsApi.reducerPath]: chatsApi.reducer,
     [contactsApi.reducerPath]: contactsApi.reducer,
     [messageApi.reducerPath]: messageApi.reducer,
-    [testApi.reducerPath]: testApi.reducer,
+    [notificationApi.reducerPath]: notificationApi.reducer,
     authReducer,
 })
 export const setupStore = () =>
@@ -19,7 +19,7 @@ export const setupStore = () =>
             chatsApi.middleware,
             contactsApi.middleware,
             messageApi.middleware,
-            testApi.middleware,
+            notificationApi.middleware,
         ),
     });
 

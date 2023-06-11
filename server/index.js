@@ -1,23 +1,33 @@
 import whatsAppClient from "@green-api/whatsapp-api-client"
 import express from "express"
-import bodyParser from "body-parser"
+ import bodyParser from "body-parser"
+import cors from"cors";
 
 
 
-// Receive webhook
+
 (async () => {
     try {
 
         const app = express();
-        const webHookAPI = whatsAppClient.webhookAPI(app, '/')
-        app.use(bodyParser.json());
 
-        webHookAPI.onIncomingMessageText((data, idInstance, idMessage, sender, typeMessage, textMessage) => {
-            console.log(`Incoming Notification data ${JSON.stringify(data)}`)
+        const port = 80;
+        let notification
+        app.use(bodyParser.json());
+        app.post('/', (req, res) => {
+            notification = req.body
+             console.log(req.body);
+            res.status(200).send('');
+        });
+        app.use(cors());
+        app.get('/api', (req, res) => {
+            res.set('Access-Control-Allow-Origin', '*')
+            return res.send({notification})
         });
 
-        app.listen(80, async () => {
-            console.log(`Started. App listening on port 80!`)
+
+        app.listen(port, () => {
+            console.log(`Server is listening on port ${port}`);
         });
     } catch (error) {
         console.error(error);

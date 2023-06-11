@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24af6d2a-f501-4f87-a0c2-d435f6ea8d57" name="Changes" comment="commit" />
+    <list default="true" id="24af6d2a-f501-4f87-a0c2-d435f6ea8d57" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/client/src/entities/components/notification/notification.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/entities/components/notification/notification.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vercel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/shared/components/date/date.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/shared/components/date/date.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/shared/components/dropdown/dropdown.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/shared/components/dropdown/dropdown.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store/api/testApi.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/api/notificationApi.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/widgets/components/chatMessages/chatMessages.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/widgets/components/chatMessages/chatMessages.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/router.js" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,7 +42,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/aleks/Desktop/web/react_prodject/whatsapp-analog/src/shared/assets/images/icon",
+    "last_opened_file_path": "C:/Users/aleks/Desktop/web/react_prodject/whatsapp-analog",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "editing.templates",
     "ts.external.directory.path": "C:\\Users\\aleks\\Desktop\\web\\react_prodject\\whatsapp-analog\\client\\node_modules\\typescript\\lib",
@@ -35,6 +51,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\aleks\Desktop\web\react_prodject\whatsapp-analog\server" />
       <recent name="C:\Users\aleks\Desktop\web\react_prodject\whatsapp-analog\src\shared\assets\images\icon" />
       <recent name="C:\Users\aleks\Desktop\web\react_prodject\whatsapp-analog\src" />
       <recent name="C:\Users\aleks\Desktop\web\react_prodject\whatsapp-analog\src\app" />
@@ -69,6 +86,9 @@
       <workItem from="1686212094836" duration="19824000" />
       <workItem from="1686238151411" duration="917000" />
       <workItem from="1686239927528" duration="2233000" />
+      <workItem from="1686242898323" duration="1629000" />
+      <workItem from="1686421241710" duration="1699000" />
+      <workItem from="1686458187068" duration="17122000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1686152703743</created>
@@ -126,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686241938104</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="commit">
+      <created>1686243092863</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1686243092863</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

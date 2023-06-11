@@ -13,7 +13,6 @@ const Date: FC<IType> = ({milliSeconds}) => {
     let hours = Math.floor(milliSeconds/(60 * 60 * 1000 )%24);
 
     let minutes = Math.round(milliSeconds/1000/60%24);
-    console.log(hours,minutes)
     // useEffect(() => {
     //     setHours(Math.floor(1686130667 / (1000 * 60 * 60) % 24))
     //     setMinutes(Math.floor((1686168595 / (1000 * 60)) % 60),)

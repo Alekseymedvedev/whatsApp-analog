@@ -44,10 +44,10 @@ const ChatMessages: FC<IType> = ({idChat,onClick}) => {
             </HeaderChatMessage>
             <ul className={styles.list}>
                 {
-                    data?.map(item =>
+                    data?.map((item,index:number) =>
 
                             <li
-                                key={item.idMessage}
+                                key={item.idMessage+index}
                                 className={classnames(styles.message,item.type==="outgoing"?styles.outgoing: styles.incoming)}
                             >
                                 <span>{item.textMessage}</span>

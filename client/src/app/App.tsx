@@ -4,11 +4,10 @@ import '../shared/assets/styles/reset.scss';
 import '../shared/assets/styles/globals.scss';
 import Home from "../pages/home";
 import {useAppSelector} from "../hooks/useReduser";
-import {useGetTestQuery} from "../store/api/testApi";
+
 
 function App() {
-    const data = useGetTestQuery('')
-    console.log(data)
+
     const {isAuth} = useAppSelector(state => state.authReducer)
 
     const [id, setId] = useState(localStorage.getItem('idInstance'))
