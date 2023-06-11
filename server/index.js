@@ -22,7 +22,8 @@ import cors from"cors";
         app.use(cors());
         app.get('/api', (req, res) => {
             res.set('Access-Control-Allow-Origin', '*')
-            return res.json('notification')
+            // return res.send({notification})
+            res.status(200).json('test')
         });
 
 
