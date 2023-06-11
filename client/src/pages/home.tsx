@@ -11,7 +11,7 @@ import Notification from "../entities/components/notification/notification";
 const Home = () => {
     const data = useGetNotificationQuery('', {pollingInterval: 10000})
     console.log(data)
-    console.log(222)
+    console.log(1111)
 
     const [idChat, setIdChat] = useState('')
     const [visibleMessage, setVisibleMessage] = useState(false)
