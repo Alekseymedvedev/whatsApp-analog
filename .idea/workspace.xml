@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24af6d2a-f501-4f87-a0c2-d435f6ea8d57" name="Changes" comment="commit" />
+    <list default="true" id="24af6d2a-f501-4f87-a0c2-d435f6ea8d57" name="Changes" comment="commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store/api/notificationApi.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/api/notificationApi.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +75,7 @@
       <workItem from="1686239927528" duration="2233000" />
       <workItem from="1686242898323" duration="1629000" />
       <workItem from="1686421241710" duration="1699000" />
-      <workItem from="1686458187068" duration="22321000" />
+      <workItem from="1686458187068" duration="22978000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1686152703743</created>
@@ -263,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686484794616</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="commit">
+      <created>1686484927559</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1686484927559</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
