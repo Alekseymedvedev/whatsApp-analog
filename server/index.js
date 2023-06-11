@@ -22,8 +22,9 @@ import cors from"cors";
         app.use(cors());
         app.get('/api', (req, res) => {
             res.set('Access-Control-Allow-Origin', '*')
+            res.setHeader('Content-Type', 'text/html');
             res.setHeader('Cache-Control', 's-max-age=1, stale-while-revalidate');
-            return res.json({data:'notification'})
+            return res.send({notification})
         });
 
 
