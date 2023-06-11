@@ -3,7 +3,7 @@ import {createApi, fetchBaseQuery} from "@reduxjs/toolkit/query/react";
 export const notificationApi = createApi({
     reducerPath: 'notificationApi',
     baseQuery: fetchBaseQuery({
-        baseUrl: `https://whats-app-analog-vpwk.vercel.app/`,
+        baseUrl: `https://whats-app-analog-vpwk.vercel.app`,
         headers: {
             "Content-Type": "application/json"
         },
