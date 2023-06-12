@@ -8,14 +8,12 @@ export const notificationApi = createApi({
             "Content-Type": "application/json"
         },
     }),
-    tagTypes: ['chat'],
 
     endpoints: (build) => ({
         getNotification: build.query({
             query: () => ({
-                url: `/api`,
+                url: `/notification`,
             }),
-            providesTags: ['chat'],
         }),
     })
 });

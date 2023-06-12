@@ -20,7 +20,7 @@ import cors from"cors";
             res.status(200).send('');
         });
         app.use(cors());
-        app.get('/api', (req, res) => {
+        app.get('/notification', (req, res) => {
             res.set('Access-Control-Allow-Origin', '*')
             return res.send({notification})
         });
