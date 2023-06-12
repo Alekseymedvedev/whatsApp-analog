@@ -1,4 +1,4 @@
-import React, {FC} from 'react';
+import React, {FC, useEffect, useState} from 'react';
 import styles from './chatsList.module.scss'
 import Chat from "../../../entities/components/chat/chat";
 import {useGetChatsQuery} from "../../../store/api/chatsApi";
@@ -12,7 +12,12 @@ const ChatsList: FC<IType> = ({idChat}) => {
     const idInstance =useToken().id
     const apiTokenInstance =useToken().token
 
-    const {data: dataChats, isLoading: isLoadingChats, error: errorChats} = useGetChatsQuery({idInstance, apiTokenInstance})
+    const [skip, setSkip] = useState(true)
+
+    useEffect(() => {
+        if (idInstance && apiTokenInstance) setSkip(false)
+    }, [idInstance, apiTokenInstance])
+    const {data: dataChats, isLoading: isLoadingChats, error: errorChats} = useGetChatsQuery({idInstance, apiTokenInstance}, {skip})
 
     if (errorChats) {
         return (

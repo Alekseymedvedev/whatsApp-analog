@@ -3,13 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="24af6d2a-f501-4f87-a0c2-d435f6ea8d57" name="Changes" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/entities/components/headerChatMessage/headerChatMessage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/entities/components/headerChatMessage/headerChatMessage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/entities/components/search/search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/entities/components/search/search.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/shared/UI/input/input.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/shared/UI/input/input.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/shared/UI/input/input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/shared/UI/input/input.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/shared/components/dropdown/dropdown.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/shared/components/dropdown/dropdown.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/shared/components/dropdown/dropdown.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/shared/components/dropdown/dropdown.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/widgets/components/chatMessages/chatMessages.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/widgets/components/chatMessages/chatMessages.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/shared/components/name/name.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/shared/components/name/name.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/widgets/components/chatsList/chatsList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/widgets/components/chatsList/chatsList.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +80,7 @@
       <workItem from="1686458187068" duration="23695000" />
       <workItem from="1686550772278" duration="1994000" />
       <workItem from="1686552932346" duration="7197000" />
-      <workItem from="1686561133281" duration="1690000" />
+      <workItem from="1686561133281" duration="2153000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1686152703743</created>
@@ -324,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686560210684</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="commit">
+      <created>1686563032043</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1686563032043</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

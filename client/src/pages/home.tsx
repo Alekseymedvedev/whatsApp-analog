@@ -47,7 +47,7 @@ const Home = () => {
                 <Sidebar onClick={clickHandler}>
                     <HeaderSidebar/>
                     <Search idContacts={setIdChat}/>
-                    {/*<ChatsList idChat={setIdChat}/>*/}
+                    <ChatsList idChat={setIdChat}/>
                 </Sidebar>
             }
 

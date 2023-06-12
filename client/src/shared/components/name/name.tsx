@@ -8,7 +8,7 @@ interface IType {
 const Name: FC<IType> = ({name}) => {
 
     return (
-        <div className={styles.name}>{name}</div>
+        <div className={styles.name}>{name.split('@').shift()}</div>
     );
 };
 
