@@ -2,13 +2,17 @@ import React, {FC} from 'react';
 import styles from './chatsList.module.scss'
 import Chat from "../../../entities/components/chat/chat";
 import {useGetChatsQuery} from "../../../store/api/chatsApi";
+import {useToken} from "../../../hooks/useToken";
 
 interface IType {
     idChat: (id: string) => void
 }
 
 const ChatsList: FC<IType> = ({idChat}) => {
-    const {data: dataChats, isLoading: isLoadingChats, error: errorChats} = useGetChatsQuery('')
+    const idInstance =useToken().id
+    const apiTokenInstance =useToken().token
+
+    const {data: dataChats, isLoading: isLoadingChats, error: errorChats} = useGetChatsQuery({idInstance, apiTokenInstance})
 
     if (errorChats) {
         return (

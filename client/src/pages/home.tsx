@@ -9,9 +9,9 @@ import Notification from "../entities/components/notification/notification";
 
 
 const Home = () => {
-    const data = useGetNotificationQuery('', {pollingInterval: 10000})
-    console.log(data)
-    console.log(444)
+    const data = useGetNotificationQuery('')
+    // const data = useGetNotificationQuery('', {pollingInterval: 10000})
+
 
     const [idChat, setIdChat] = useState('')
     const [visibleMessage, setVisibleMessage] = useState(false)
@@ -47,7 +47,7 @@ const Home = () => {
                 <Sidebar onClick={clickHandler}>
                     <HeaderSidebar/>
                     <Search idContacts={setIdChat}/>
-                    <ChatsList idChat={setIdChat}/>
+                    {/*<ChatsList idChat={setIdChat}/>*/}
                 </Sidebar>
             }
 

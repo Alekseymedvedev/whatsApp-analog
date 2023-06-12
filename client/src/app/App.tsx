@@ -4,31 +4,25 @@ import '../shared/assets/styles/reset.scss';
 import '../shared/assets/styles/globals.scss';
 import Home from "../pages/home";
 import {useAppSelector} from "../hooks/useReduser";
-
+import {useToken} from "../hooks/useToken";
 
 function App() {
 
     const {isAuth} = useAppSelector(state => state.authReducer)
 
-    const [id, setId] = useState(localStorage.getItem('idInstance'))
-    const [token, setToken] = useState(localStorage.getItem('apiTokenInstance'))
+    const idInstance = useToken(isAuth).id
+    const apiTokenInstance = useToken(isAuth).token
+
+    const [auth, setAuth] = useState(false)
 
     useEffect(() => {
-        window.addEventListener('storage', () => {
-
-        })
-        // setId(localStorage.getItem('idInstance'))
-        // setToken(localStorage.getItem('apiTokenInstance'))
-
-    }, [isAuth])
+        if (idInstance && apiTokenInstance) setAuth(true)
+    }, [idInstance, apiTokenInstance, isAuth])
 
     return (
         <div>
-
             {
-                (token && id)
-                    ? <Home/>
-                    : <Auth/>
+                (auth || (idInstance && apiTokenInstance)) ? <Home/> : <Auth/>
             }
         </div>
     );

@@ -1,6 +1,5 @@
 import {createApi, fetchBaseQuery} from "@reduxjs/toolkit/query/react";
 import {Chat, Message} from "../../types/types";
-import {apiTokenInstance, idInstance} from "./token";
 
 export const chatsApi = createApi({
     reducerPath: 'chatsApi',
@@ -11,8 +10,8 @@ export const chatsApi = createApi({
     tagTypes: ['chat'],
 
     endpoints: (build) => ({
-        getChats: build.query<Chat[], string>({
-            query: () => ({
+        getChats: build.query<Chat[], {idInstance:string,apiTokenInstance:string}>({
+            query: ({idInstance,apiTokenInstance}) => ({
                 url: `/waInstance${idInstance}/getChats/${apiTokenInstance}`,
             }),
             providesTags: ['chat'],

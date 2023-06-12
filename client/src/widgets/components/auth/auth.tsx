@@ -2,7 +2,7 @@ import React, {FC, useState} from 'react';
 import styles from './auth.module.scss'
 import Input from "../../../shared/UI/input/input";
 import Button from "../../../shared/UI/button/button";
-import {useInput} from "../../../shared/hooks/useInput";
+import {useInput} from "../../../hooks/useInput";
 import {useAppDispatch} from "../../../hooks/useReduser";
 import {authSlice} from "../../../store/slice/authSlice";
 

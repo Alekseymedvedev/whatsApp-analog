@@ -6,6 +6,7 @@ import SendIcon from "../../../shared/assets/images/icon/sendIcon";
 import Date from "../../../shared/components/date/date";
 import HeaderChatMessage from "../../../entities/components/headerChatMessage/headerChatMessage";
 import Arrow from "../../../shared/assets/images/icon/arrow";
+import {useToken} from "../../../hooks/useToken";
 
 interface IType {
     idChat: any
@@ -13,6 +14,9 @@ interface IType {
 }
 
 const ChatMessages: FC<IType> = ({idChat,onClick}) => {
+    const idInstance =useToken().id
+    const apiTokenInstance =useToken().token
+
     const [getAllMessage, {data}] = useGetHistoryChatsMutation()
     const [sendMessage] = useSendMessageMutation()
 
@@ -21,14 +25,25 @@ const ChatMessages: FC<IType> = ({idChat,onClick}) => {
     const [message,setMessage]=useState('')
 
     useEffect(() => {
-        if (idChat) getAllMessage({chatId: idChat, "count": 100})
+        if (idChat) {
+            getAllMessage({
+                idInstance,
+                apiTokenInstance,
+                body:{chatId: idChat, "count": 100}
+            })
+
+        }
     }, [idChat])
 
     const sendMessageHandler = (e:any) => {
         e.preventDefault();
         sendMessage({
-            chatId: idChat,
-            message: message
+            idInstance,
+            apiTokenInstance,
+            body:{
+                chatId: idChat,
+                message: message
+            }
         }).then(()=>{
             if(textMessageRef.current) { textMessageRef.current.innerText = "" }
         })
