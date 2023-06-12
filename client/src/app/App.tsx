@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import Auth from "../widgets/components/auth/auth";
-import '../shared/assets/styles/reset.scss';
-import '../shared/assets/styles/globals.scss';
+import './styles/reset.scss';
+import './styles/globals.scss';
 import Home from "../pages/home";
 import {useAppSelector} from "../hooks/useReduser";
 import {useToken} from "../hooks/useToken";

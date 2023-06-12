@@ -2,22 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24af6d2a-f501-4f87-a0c2-d435f6ea8d57" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/client/src/hooks/useInput.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/hooks/useSearch.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/hooks/useToken.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/entities/components/search/search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/entities/components/search/search.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/shared/hooks/useInput.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/store/api/chatsApi.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/api/chatsApi.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/store/api/contactsApi.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/api/contactsApi.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/store/api/messageApi.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/api/messageApi.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/store/api/token.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/widgets/components/auth/auth.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/widgets/components/auth/auth.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/widgets/components/chatMessages/chatMessages.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/widgets/components/chatMessages/chatMessages.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/widgets/components/chatsList/chatsList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/widgets/components/chatsList/chatsList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vercel.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/vercel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/shared/UI/button/button.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/shared/UI/button/button.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/shared/assets/styles/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/styles/globals.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/shared/assets/styles/reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/styles/reset.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/shared/assets/styles/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/styles/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/widgets/components/auth/auth.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/widgets/components/auth/auth.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/vercel.json" beforeDir="false" afterPath="$PROJECT_DIR$/vercel.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,18 +45,18 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\aleks\Desktop\web\react_prodject\whatsapp-analog" />
       <recent name="C:\Users\aleks\Desktop\web\react_prodject\whatsapp-analog\server" />
       <recent name="C:\Users\aleks\Desktop\web\react_prodject\whatsapp-analog\src\shared\assets\images\icon" />
       <recent name="C:\Users\aleks\Desktop\web\react_prodject\whatsapp-analog\src" />
       <recent name="C:\Users\aleks\Desktop\web\react_prodject\whatsapp-analog\src\app" />
-      <recent name="C:\Users\aleks\Desktop\web\react_prodject\whatsapp-analog\src\shared\hooks" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aleks\Desktop\web\react_prodject\whatsapp-analog\client\src\app" />
+      <recent name="C:\Users\aleks\Desktop\web\react_prodject\whatsapp-analog" />
       <recent name="C:\Users\aleks\Desktop\web\react_prodject\whatsapp-analog\client" />
       <recent name="C:\Users\aleks\Desktop\web\react_prodject\whatsapp-analog\client\src\hooks" />
-      <recent name="C:\Users\aleks\Desktop\web\react_prodject\whatsapp-analog" />
       <recent name="C:\Users\aleks\Desktop\web\react_prodject\whatsapp-analog\src\app" />
-      <recent name="C:\Users\aleks\Desktop\web\react_prodject\whatsapp-analog\src\shared\assets" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -91,7 +84,7 @@
       <workItem from="1686421241710" duration="1699000" />
       <workItem from="1686458187068" duration="23695000" />
       <workItem from="1686550772278" duration="1994000" />
-      <workItem from="1686552932346" duration="4225000" />
+      <workItem from="1686552932346" duration="6163000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1686152703743</created>
@@ -296,7 +289,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686485740199</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="commit">
+      <created>1686557984145</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1686557984145</updated>
+    </task>
+    <task id="LOCAL-00031" summary="commit">
+      <created>1686558096264</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1686558096264</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
