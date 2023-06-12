@@ -31,7 +31,6 @@ const ChatMessages: FC<IType> = ({idChat,onClick}) => {
                 apiTokenInstance,
                 body:{chatId: idChat, "count": 100}
             })
-
         }
     }, [idChat])
 
@@ -52,7 +51,7 @@ const ChatMessages: FC<IType> = ({idChat,onClick}) => {
 
         <div  className={styles.chatMessage}>
 
-            <HeaderChatMessage chatId={idChat}>
+            <HeaderChatMessage>
                 <button onClick={onClick} className={styles.btnClose}>
                     <Arrow/>
                 </button>
@@ -60,7 +59,6 @@ const ChatMessages: FC<IType> = ({idChat,onClick}) => {
             <ul className={styles.list}>
                 {
                     data?.map((item,index:number) =>
-
                             <li
                                 key={item.idMessage+index}
                                 className={classnames(styles.message,item.type==="outgoing"?styles.outgoing: styles.incoming)}

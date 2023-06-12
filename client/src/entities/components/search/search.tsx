@@ -10,7 +10,7 @@ import {useToken} from "../../../hooks/useToken";
 import {useSearch} from "../../../hooks/useSearch";
 
 interface IType {
-    idContacts?: (id: string) => void
+    idContacts: (id: string) => void
 }
 
 const Search: FC<IType> = ({idContacts}) => {
@@ -40,7 +40,7 @@ const Search: FC<IType> = ({idContacts}) => {
 
         setContacts(arr)
     }
-    const search = useInput('', searchHandler, true)
+    const search = useInput('', searchHandler)
 
     return (
         <div className={styles.search}>

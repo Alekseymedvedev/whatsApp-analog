@@ -11,16 +11,11 @@
 
 .input {
   width: 100%;
-  padding: 8px;
+  padding: 8px 8px 8px 32px;
 
   background-color: var(--color-background);
   border-radius: 4px;
 
-  &:focus {
-    & + .icon {
-      display: none;
-    }
-  }
 }
 
 .icon {
@@ -28,7 +23,7 @@
   height: 24px;
   position: absolute;
   top: 50%;
-  left: 16px;
+  left: 8px;
   transform: translateY(-50%);
 
 }
